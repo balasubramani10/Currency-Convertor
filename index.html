@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Live-Currency Converter</title>
+</head>
+<body>
+    <div id="currencyConverterBox">
+        <div class="title">
+            <h2>Currency Converter</h2>
+        </div>
+        <div class="convertercontainer">
+            <div class="currencyRate">
+                <h6 id="rate1"></h6>
+                <h3 id="rate2"></h3>
+            </div>
+            <div class="userInputs">
+                <div class="inputSection" id="baseInputSection">
+                    <div id="baseCountryCodeOptions" class="countryCodeOptions">
+                        <select name="baseCountryCode" >
+                           
+                        </select>
+                    </div>
+        
+                    <div class="countryValue" id="baseCountyValue">
+                        <input type="number" name="baseCountryValue" value="" >
+                    </div>
+                </div>
+                <div id="icon">
+                    <img src="/icons/convert-arrow-icon.png" alt="Convert Now">
+                </div>
+                <div class="inputSection" id="targetInputSection">
+                    <div id="targetCountryCodeOptions" class="countryCodeOptions">
+                        <select name="targetCountryCode" id="">
+        
+                        </select>
+                    </div>
+                    <div  class="countryValue" id="targetCountryValue">
+                        <input type="number" name="targetCountryValue" value="" >
+                    </div>
+                </div>
+            </div>
+            <div class="Btn">
+                <button id="convertBtn">Convert</button>
+            </div>
+        </div>
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
